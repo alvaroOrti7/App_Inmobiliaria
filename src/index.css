@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero {
+    height: calc(100dvh - 137px);
+}
+
+#mobile-hero {
+    height: calc(100dvh - 86px);
+}
+
+#brilloLetra {
+    animation: gradient 3s ease-in-out infinite;
+    background: linear-gradient(45deg, rgb(82, 82, 85) 0%, rgb(205, 45, 45) 48%, rgb(230, 7, 7) 100%);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes steelEffect {
+    0% {
+        background: linear-gradient(45deg, steelblue 0%, steelblue 100%);
+        background-size: 200% 100%;
+    }
+    100% {
+        background: linear-gradient(45deg, #d4d4d4 0%, #d4d4d4 100%);
+        background-size: 200% 100%;
+    }
+}
+
+#brillo {
+    position: relative;
+    background: linear-gradient(to right, rgb(230, 7, 7), rgb(205, 45, 45));
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: all 1.2s;
+}
+
+#brillo:hover {
+    filter: brightness(1.2);
+}
+
+#brillo::before {
+    content: "";
+    position: absolute;
+    height: 300px;
+    width: 30px;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255, 0.25));
+    filter: blur(1px);
+    opacity: 0.5;
+    transform: rotate(-30deg) translateX(-165px);
+    transition: 1s;
+}
+
+#brillo:hover:before {
+    transform: rotate(-30deg) translateX(185px);
+}
