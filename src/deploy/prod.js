@@ -5,7 +5,7 @@ const dateTime = moment().format("MM/DD/YYYY HH:mm:ss");
 
 try {
   execSync(
-    `cd ../form-topsolid-deploy && git checkout master &&  cp -r ../form-topSolid/dist/. ./ && git add . && git commit -m "Send to master at ${dateTime}" && git push origin master --force`,
+    `cd ../TopSolid-Steel_Deploy && git checkout master &&  cp -r ../form-topSolid/dist/. ./ && git add . && git commit -m "Send to master at ${dateTime}" && git push origin master --force`,
     { stdio: [0, 1, 2] }
   );
   console.log("Envio Correcto");
