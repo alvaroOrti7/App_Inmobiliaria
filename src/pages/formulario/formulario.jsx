@@ -12,7 +12,7 @@ const Formulario = () => {
                 portalId: "139725651",
                 formId: "8f46d1de-7a7a-42bf-80e2-ebc8cc992081",
                 target: '#formulario-container',
-            });
+              });
         }
     }, []);
 
