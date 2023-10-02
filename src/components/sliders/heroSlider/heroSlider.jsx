@@ -27,7 +27,7 @@ const Heroslider = () => {
 
     const texts = [
         {
-            img: 'src/assets/hero1.webp',
+            img: 'src/assets/hero1.jpg',
             titulo: "LO + IMPORTANTE",
             parrafo: "Ahorre dinero y horas. Desarrollar sus proyectos a la velocidad que le ofrece TopSolid, le permitirá presupuestar en tiempo récord y el mismo proyecto le servirá para fabricar."
         },
