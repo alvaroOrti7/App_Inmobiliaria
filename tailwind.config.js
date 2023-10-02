@@ -13,8 +13,8 @@ export default {
       black: '#3D3838',
     },
     backgroundImage: {
-      'fondo': "url('src/assets/fondo.webp')",
-      'banner': "url('src/assets/banner.webp')"
+      'fondo': "url('/fondo.webp')",
+      'banner': "url('/banner.webp')"
     },
     fontFamily: {
       'catamaran': "'Catamaran', sans-serif",
