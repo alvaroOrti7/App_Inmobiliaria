@@ -3,7 +3,7 @@ import React from 'react';
 const Testimonioslider = () => {
     const texts = [
         {
-            img: 'src/assets/LOGOS-TESTIMONIOS-03.webp',
+            img: '/LOGOS-TESTIMONIOS-03.webp',
             nombre: "Toni Sarabia",
             empresa: "MIPESA GRUPO EMPRESARIAL",
             parrafo: `TopSolid ha marcado un antes y un después en nuestra empresa, mejorando significativamente la eficiencia en nuestros procesos de diseño, gestión, y programación de máquinas CNC.\n
@@ -11,7 +11,7 @@ const Testimonioslider = () => {
             Estas mejoras han optimizado y reducido los costes operativos. Topsolid ha sido una pieza fundamental en nuestro éxito y crecimiento.`,
         },
         {
-            img: 'src/assets/LOGOS-TESTIMONIOS-01.webp',
+            img: '/LOGOS-TESTIMONIOS-01.webp',
             nombre: "Rubén Pleguezuelos",
             empresa: "MOLD-TECNIC R&D",
             parrafo: `TopSolid ha impulsado nuestra eficiencia. Tanto la oficina técnica como la producción han cambiado significativamente.\n
@@ -22,7 +22,7 @@ const Testimonioslider = () => {
             Todas estas mejoras en la calidad de nuestro trabajo han consolidado nuestra posición en el mercado.`,
         },
         {
-            img: 'src/assets/LOGOS-TESTIMONIOS-02.webp',
+            img: '/LOGOS-TESTIMONIOS-02.webp',
             nombre: "Jose Ángel Herrero",
             empresa: "IMATRIC - TECDEM",
             parrafo: `Desde que implementamos TopSolid en nuestra oficina técnica, hemos experimentado un cambio transformador en nuestra empresa. TopSolid ha mejorado nuestra capacidad para diseñar y producir matrices de forma más rápida y precisa.\n

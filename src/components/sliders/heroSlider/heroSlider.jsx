@@ -27,27 +27,27 @@ const Heroslider = () => {
 
     const texts = [
         {
-            img: 'src/assets/hero1.webp',
+            img: '/hero1.webp',
             titulo: "LO + IMPORTANTE",
             parrafo: "Ahorre dinero y horas. Desarrollar sus proyectos a la velocidad que le ofrece TopSolid, le permitirá presupuestar en tiempo récord y el mismo proyecto le servirá para fabricar."
         },
         {
-            img: 'src/assets/hero2.webp',
+            img: '/hero2.webp',
             titulo: "INVIERTA EN VALOR",
             parrafo: "Céntrese en lo esencial automatizando las tareas repetitivas y tediosas"
         },
         {
-            img: 'src/assets/hero3.webp',
+            img: '/hero3.webp',
             titulo: "SÁCALE PARTIDO A TU EXPERIENCIA",
             parrafo: "Aproveche toda su experiencia acumulada en el sector del metal y cree sus propios componentes paramétricos e inteligentes."
         },
         {
-            img: 'src/assets/hero4.webp',
+            img: '/hero4.webp',
             titulo: "DISEÑO SIN LÍMITE",
             parrafo: "Modele sus ideas y las de sus clientes sin restricciones gracias a las ilimitadas capacidades de diseño de TopSolid"
         },
         {
-            img: 'src/assets/hero5.webp',
+            img: '/hero5.webp',
             titulo: "PRESENTACIONES",
             parrafo: "Presente a sus clientes los proyectos como nunca antes gracias al renderizado realista integrado."
         }

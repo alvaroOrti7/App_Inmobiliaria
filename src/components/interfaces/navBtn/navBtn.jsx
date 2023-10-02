@@ -1,4 +1,4 @@
-import Pegatina from "../../../assets/pegatinaTopSolid.webp";
+import Pegatina from "/pegatinaTopSolid.webp";
 
 const url = window.location.href;
 

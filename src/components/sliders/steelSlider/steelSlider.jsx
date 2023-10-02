@@ -36,7 +36,7 @@ const Steelslider = () => {
 
     const texts = [
         {
-            img: 'src/assets/block1.webp',
+            img: '/block1.webp',
             titulo: "Diseño sin límites",
             subtitulo: "Modele sus ideas sin restricciones, ¡expresando su creatividad!",
             puntos: [
@@ -51,7 +51,7 @@ const Steelslider = () => {
             ],
         },
         {
-            img: 'src/assets/block2.webp',
+            img: '/block2.webp',
             titulo: "Componentes paramétricos",
             subtitulo: "Máxima capitalización de su know-how. ¡Cuando la rentabilidad se une a su innovación!",
             puntos: [
@@ -61,7 +61,7 @@ const Steelslider = () => {
             ],
         },
         {
-            img: 'src/assets/block3.webp',
+            img: '/block3.webp',
             titulo: "Renderización realista",
             subtitulo: "Una inmersión sin igual para sus clientes. Evite los malentendidos y facilite la toma de decisiones.",
             puntos: [
@@ -72,7 +72,7 @@ const Steelslider = () => {
             ],
         },
         {
-            img: 'src/assets/block4.webp',
+            img: '/block4.webp',
             titulo: "Trabajar en el proceso BIM",
             subtitulo: "Integre los procesos BIM con serenidad gracias a una solución totalmente compatible.",
             puntos: [
@@ -86,7 +86,7 @@ const Steelslider = () => {
             ],
         },
         {
-            img: 'src/assets/block5.webp',
+            img: '/block5.webp',
             titulo: "Diseño asociativo",
             subtitulo: "Ahorre tiempo en sus modificaciones y evite muchos errores",
             puntos: [
@@ -96,7 +96,7 @@ const Steelslider = () => {
             ],
         },
         {
-            img: 'src/assets/block6.webp',
+            img: '/block6.webp',
             titulo: "Gestión medioambiental",
             subtitulo: "Desde lo más sencillo hasta lo más complejo, TopSolid se adaptará a sus limitaciones",
             puntos: [
