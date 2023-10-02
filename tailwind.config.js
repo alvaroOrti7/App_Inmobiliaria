@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  extend: {
-    theme: {
+  theme: {
+    extend: {
       colors: {
         white: "#F6FAFD",
         red: "#E42024",
@@ -25,8 +25,8 @@ export default {
         mobile: "280px",
         "mobile-steelArrows": "294px",
         "mobile-steelTittle": "378px",
-      },
-    },
-    plugins: [],
+      }
+    }
   },
+  plugins: [],
 };
