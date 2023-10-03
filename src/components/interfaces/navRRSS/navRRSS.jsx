@@ -51,7 +51,7 @@ const Navrrss = ({ politica, altura }) => {
                 )}
 
                 {politica && (
-                    <div className="mobile:hidden md:block">
+                    <div className="text-right mobile:hidden md:block">
                         <h4 className="text-[24px]">Contacto</h4>
                         <p>Av. Barcelona 92, 3 - Oficina B</p>
                         <p>Torrent (Valencia) 46900</p>

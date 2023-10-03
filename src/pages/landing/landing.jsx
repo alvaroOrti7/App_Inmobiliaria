@@ -5,7 +5,7 @@ import Navrrss from "../../components/interfaces/navRRSS/navRRSS"
 import Lista from "../../components/list/lista"
 import Heroslider from "../../components/sliders/heroSlider/heroSlider"
 import Steelslider from "../../components/sliders/steelSlider/steelSlider"
-import Testimonioslider from "../../components/sliders/testimoniosSlider/testimonioSlider"
+import Testimonios from "../../components/testimonios/testimonios"
 import Videoslider from "../../components/sliders/videoSlider/videoSlider"
 
 
@@ -18,9 +18,9 @@ const Landing = () => (
         <Lista />
         <Videoslider />
         <Steelslider />
-        <Testimonioslider />
+        <Testimonios />
         <Banner2 />
-        <Navrrss altura={'64'} politica={true} />
+        <Navrrss altura={'[250px]'} politica={true} />
     </div>
 )
 
