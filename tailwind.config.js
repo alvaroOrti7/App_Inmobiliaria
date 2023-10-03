@@ -13,7 +13,7 @@ export default {
         red: "#E42024",
         gray: "#E7E7E7",
         border: "rgb(82, 82, 85)",
-        black: "#3D3838",
+        blacky: "#3D3838",
       },
       backgroundImage: {
         fondo: "url('/fondo.webp')",
@@ -27,7 +27,7 @@ export default {
         sombra: "0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)",
       },
       screens: {
-        mobile: "280px",
+        "mobile": "280px",
         "mobile-steelArrows": "294px",
         "mobile-steelTittle": "378px",
       },

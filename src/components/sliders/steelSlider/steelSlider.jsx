@@ -120,7 +120,7 @@ const Steelslider = () => {
     };
 
     return (
-        <div className='relative bg-black text-white'>
+        <div className='relative bg-blacky text-white'>
             <div className='pt-8 pl-16 pb-16 mobile:pl-4 mobile:pb-0'>
                 <h1 className='font-impact text-[44px] mobile:text-[30px]'>TopSolid'Steel</h1>
                 <h4 className='text-[20px] mobile:text-[18px]'>La referencia en software metalúrgico</h4>
