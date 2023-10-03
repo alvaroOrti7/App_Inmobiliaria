@@ -20,7 +20,7 @@ const Landing = () => (
         <Steelslider />
         <Testimonios />
         <Banner2 />
-        <Navrrss altura={'[250px]'} politica={true} />
+        <Navrrss altura={'64'} politica={true} />
     </div>
 )
 
