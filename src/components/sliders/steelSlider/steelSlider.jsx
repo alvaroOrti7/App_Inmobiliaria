@@ -148,7 +148,7 @@ const Steelslider = () => {
                 itemClass="items-slider"
                 customTransition="all .5s ease-in-out" // Controla la transición personalizada
             >
-                {texts.map(({ img, titulo, subtitulo, puntos, key }) => (
+                {texts.map(({ img, titulo, subtitulo, puntos }, key) => (
                     <div key={key}>
                         <div className='pt-16'>
                             <img id="hero" className='object-contain' src={img} alt="imagenes" style={{ height: "300px" }} />
