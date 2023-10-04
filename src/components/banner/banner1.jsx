@@ -1,4 +1,4 @@
-
+import { NavLink } from "react-router-dom";
 const url = window.location.href;
 
 const Banner1 = () => (
@@ -9,6 +9,9 @@ const Banner1 = () => (
     >
       Es hora de desmarcarte de tu competencia
     </h2>
+    <NavLink
+    to={"/formulario"}
+    >
     <div id="boton" className={`flex flex-row justify-end text-center`}>
       <a target="_blank" rel="noopener noreferrer" href={url + "formulario"}>
         <button
@@ -19,6 +22,7 @@ const Banner1 = () => (
         </button>
       </a>
     </div>
+    </NavLink>
   </div>
 );
 

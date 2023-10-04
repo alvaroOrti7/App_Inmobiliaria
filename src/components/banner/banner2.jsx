@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 
 const url = window.location.href;
 
@@ -10,6 +11,9 @@ const Banner2 = () => (
     </div>
     <img className="w-full h-[280px] object-cover" src="/hero6.webp" alt="" />
     <div className="absolute right-[170px] top-[100px] mobile:right-1 mobile:top-[120px] sm:right-16 sm:top-24 md:right-28 lg:right-36 xl:right-52 2xl:right-72">
+    <NavLink
+    to={"/formulario"}
+    >
       <div id="boton" className={`flex flex-row justify-end text-center`}>
       <a target="_blank" rel="noopener noreferrer" href={url + "formulario"}>
         <button
@@ -20,6 +24,7 @@ const Banner2 = () => (
         </button>
       </a>
     </div>
+    </NavLink>
     </div>
   </div>
 );
