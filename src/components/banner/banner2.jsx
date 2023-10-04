@@ -11,7 +11,7 @@ const Banner2 = () => (
     <img className="w-full h-[280px] object-cover" src="/hero6.webp" alt="" />
     <div className="absolute right-[170px] top-[100px] mobile:right-1 mobile:top-[120px] sm:right-16 sm:top-24 md:right-28 lg:right-36 xl:right-52 2xl:right-72">
       <div id="boton" className={`flex flex-row justify-end text-center`}>
-      <a rel="noopener noreferrer" href={url + "formulario"}>
+      <a target="_blank" rel="noopener noreferrer" href={url + "formulario"}>
         <button
           id="brillo"
           className={`flex items-center h-[50px] w-[130px] justify-center bg-red text-white border-border italic text-lg mobile:text-[12px] mobile:px-2 sm:text-[16px] sm:w-[190px] sm:h-[90px]`}

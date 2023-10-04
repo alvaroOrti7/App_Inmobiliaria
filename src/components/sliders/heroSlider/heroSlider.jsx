@@ -87,6 +87,7 @@ const Heroslider = () => {
                 draggable={false}
                 swipeable
                 arrows={false}
+                infinite={true}
                 containerClass="container-slider"
                 dotListClass="dots-slider"
                 itemClass="items-slider"
