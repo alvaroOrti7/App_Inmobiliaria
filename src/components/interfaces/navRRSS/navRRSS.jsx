@@ -1,6 +1,6 @@
 import React from "react";
 import { BsYoutube as YT, BsFacebook as Facebook, BsInstagram as IG, BsLinkedin as Linkedin } from "react-icons/bs";
-import Prosolid from "/logo.webp";
+import Prosolid from "/logo.png";
 
 const iconos = [
     {

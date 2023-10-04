@@ -3,7 +3,7 @@ import React from 'react';
 const Testimonioslider = () => {
     const texts = [
         {
-            img: '/LOGOS-TESTIMONIOS-03.webp',
+            img: '/LOGOS-TESTIMONIOS-03.png',
             nombre: "Toni Sarabia",
             empresa: "MIPESA GRUPO EMPRESARIAL",
             parrafo: `TopSolid ha marcado un antes y un después en nuestra empresa, mejorando significativamente la eficiencia en nuestros procesos de diseño, gestión, y programación de máquinas CNC.\n
