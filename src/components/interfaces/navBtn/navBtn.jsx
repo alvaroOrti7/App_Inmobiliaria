@@ -18,7 +18,7 @@ const Navbtn = () => (
       />
     </div>
     <div id="boton" className={`h-full flex flex-row justify-end text-center`}>
-      <a target="_blank" rel="noopener noreferrer" href={url + "formulario"}>
+      <a rel="noopener noreferrer" href={url + "formulario"}>
         <button
           id="brillo"
           className={`flex items-center h-full justify-center bg-red text-white border-border italic text-lg mobile:text-[12px] mobile:px-2 sm:text-[16px] sm:w-[180px]`}
