@@ -1,4 +1,5 @@
 import Pegatina from "/pegatinaTopSolid.webp";
+import { NavLink } from "react-router-dom";
 
 const url = window.location.href;
 
@@ -17,6 +18,9 @@ const Navbtn = () => (
         alt=""
       />
     </div>
+    <NavLink
+    to={"/formulario"}
+    >
     <div id="boton" className={`h-full flex flex-row justify-end text-center`}>
       <a target="_blank" rel="noopener noreferrer" href={url + "formulario"}>
         <button
@@ -27,6 +31,7 @@ const Navbtn = () => (
         </button>
       </a>
     </div>
+    </NavLink>
   </nav>
 );
 
