@@ -10,11 +10,12 @@ const Formulario = () => {
       const script = document.createElement("script");
       script.type = "text/javascript";
       script.src = "//js-eu1.hsforms.net/forms/embed/v2.js";
+      script.async = true; // Cargar el script de forma asíncrona
   
       // Agregar el script al head del documento
       document.head.appendChild(script);
   
-      // Configurar el formulario de HubSpot
+      // Configurar el formulario de HubSpot cuando el script se cargue
       script.onload = () => {
         if (formularioRef.current) {
           window.hbspt.forms.create({
