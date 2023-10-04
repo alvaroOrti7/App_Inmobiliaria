@@ -7,7 +7,7 @@ const Formulario = () => {
 
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = "//js.hsforms.net/forms/v2.js";
+    script.src = "//js-eu1.hsforms.net/forms/embed/v2.js";
     script.async = true;
     script.onload = () => {
       if (formularioRef.current) {
