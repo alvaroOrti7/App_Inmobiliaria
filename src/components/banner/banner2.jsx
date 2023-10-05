@@ -1,8 +1,7 @@
 import { NavLink } from "react-router-dom";
 
-const url = window.location.href;
 
-const Banner2 = () => (
+const Banner2 = (url) => (
   <div className="relative">
     <div className="h-[280px] absolute top-0 left-0 w-[40%] bg-slate-800/70 mobile:w-[50%]">
       <p className="h-full flex flex-row text-center justify-center items-center font-impact text-white mobile:text-[22px] lg:text-[34px]">

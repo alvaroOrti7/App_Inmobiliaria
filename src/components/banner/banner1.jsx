@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
-const url = window.location.href;
 
-const Banner1 = () => (
+const Banner1 = (url) => (
   <div className="h-80 flex flex-col justify-around items-center lg:justify-evenly">
     <h2
       id="brilloLetra"
