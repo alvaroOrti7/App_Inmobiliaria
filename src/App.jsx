@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Route, Routes, Navigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Landing from "./pages/landing/landing";
 import Formulario from "./pages/formulario/formulario";
-import { Route, Routes } from "react-router";
-import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
 import Politicaprivacidad from "./components/politicaPrivacidad/politicaPrivacidad";
 
 const App = () => {
@@ -16,8 +15,11 @@ const App = () => {
     const newSearchParams = searchParams.toString();
     const nuevaURL = `${location.pathname}?${newSearchParams}`;
     setNuevaURL(nuevaURL);
-    console.log(nuevaURL)
   }, [location]);
+
+  if (location.search.includes("spa=true")) {
+    return <Navigate to="/formulario" />;
+  }
 
   return (
     <Routes>
@@ -27,4 +29,5 @@ const App = () => {
     </Routes>
   );
 };
+
 export default App;
