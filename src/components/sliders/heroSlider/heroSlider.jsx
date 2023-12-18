@@ -28,28 +28,28 @@ const Heroslider = () => {
     const texts = [
         {
             img: '/hero1.webp',
-            titulo: "LO + IMPORTANTE",
-            parrafo: "Ahorre dinero y horas. Desarrollar sus proyectos a la velocidad que le ofrece TopSolid, le permitirá presupuestar en tiempo récord y el mismo proyecto le servirá para fabricar."
+            titulo: "lorem ipsum",
+            parrafo: "lorem ipsum"
         },
         {
             img: '/hero2.webp',
-            titulo: "INVIERTA EN VALOR",
-            parrafo: "Céntrese en lo esencial automatizando las tareas repetitivas y tediosas"
+            titulo: "lorem ipsum",
+            parrafo: "lorem ipsum"
         },
         {
             img: '/hero3.webp',
-            titulo: "SÁCALE PARTIDO A TU EXPERIENCIA",
-            parrafo: "Aproveche toda su experiencia acumulada en el sector del metal y cree sus propios componentes paramétricos e inteligentes."
+            titulo: "lorem ipsum",
+            parrafo: "lorem ipsum"
         },
         {
             img: '/hero4.webp',
-            titulo: "DISEÑO SIN LÍMITE",
-            parrafo: "Modele sus ideas y las de sus clientes sin restricciones gracias a las ilimitadas capacidades de diseño de TopSolid"
+            titulo: "lorem ipsum",
+            parrafo: "lorem ipsum"
         },
         {
             img: '/hero5.webp',
-            titulo: "PRESENTACIONES",
-            parrafo: "Presente a sus clientes los proyectos como nunca antes gracias al renderizado realista integrado."
+            titulo: "lorem ipsum",
+            parrafo: "lorem ipsum"
         }
     ]
 
@@ -91,7 +91,8 @@ const Heroslider = () => {
                 containerClass="container-slider"
                 dotListClass="dots-slider"
                 itemClass="items-slider"
-                customTransition="all .5s ease-in-out" // Controla la transición personalizada
+                customTransition="all .5s ease-in-out"
+                
             >
                 {texts.map(({ img, titulo, parrafo }, key) => (
                     <div key={key}>

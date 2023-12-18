@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import "./Formulario.css";
-import Header from "./header/header";
 
 const Formulario = () => {
     const formularioRef = useRef(null);
@@ -30,7 +29,6 @@ const Formulario = () => {
   
     return (
       <div>
-        <Header />
         <h1 id="formu">Solicita una demo</h1>
         <section>
           <div id="formulario-container" ref={formularioRef}></div>

@@ -10,7 +10,7 @@ export default {
     extend: {
       colors: {
         white: "#F6FAFD",
-        red: "#E42024",
+        blueSky: "#4083a9",
         gray: "#E7E7E7",
         border: "rgb(82, 82, 85)",
         blacky: "#3D3838",

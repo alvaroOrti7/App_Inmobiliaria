@@ -15,6 +15,7 @@ const App = () => {
     const newSearchParams = searchParams.toString();
     const nuevaURL = `${location.pathname}?${newSearchParams}`;
     setNuevaURL(nuevaURL);
+    console.log(nuevaURL)
   }, [location]);
 
   if (location.search.includes("spa=true")) {
