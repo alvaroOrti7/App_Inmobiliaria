@@ -1,27 +1,63 @@
 const list = [
-    "lorem ipsum",
-    "lorem ipsum",
-    "lorem ipsum",
-    "lorem ipsum",
-    "lorem ipsum",
-    "lorem ipsum"
+  "lorem ipsum",
+  "lorem ipsum",
+  "lorem ipsum",
+  "lorem ipsum",
+  "lorem ipsum",
+  "lorem ipsum",
 ];
 
 const Lista = () => (
-    <div id="titulos" className="bg-gray">
-        <div className="p-14 mobile:p-8">
-            <h1 className="font-impact text-5xl mobile:text-3xl">lorem ipsum</h1>
-            <h3 className="font-impact text-lg text-border">lorem ipsum</h3>
-            <ol className="mt-10 lg:grid lg:grid-cols-2 lg:gap-8">
-                {list.map((parrafo, key) => (
-                    <li key={key} className="flex flex-row mb-4 hover:scale-105 transition-all cursor-default mobile:flex-col sm:flex-row">
-                        <span className="mr-6 font-impact text-blueSky text-3xl">{"0" + (key + 1)}</span>
-                        <p className="flex self-center text-lg font-semibold text-justify mobile:text-base lg:text-[lg] 2xl:text-[22px]">{parrafo}</p>
-                    </li>
-                ))}
-            </ol>
-        </div>
+  <>
+    <div id="hero" className="mobile:p-14">
+      <h2 className="font-bold">¿Que es el turismo Bleisure?</h2>
+      <p>
+        Bleisure es un término compuesto por la unión de las palabras en inglés
+        business y leisure, es decir, negocioa y ocio. Bleisure travel significa
+        realizar un viaje de negocios y complementarlo con una estancia privada
+        para hacer turismo en el destino o relajarse. TheBleisureHouseValencia
+        es tu espacio en Valencia para disfrutar de tu viaje de ocio y trabajar
+        a la vez. Una pequeña intro del concepto bleisure y de las posibilidades
+        de trabajar/ocio en Valencia.
+      </p>
     </div>
+    <div id="hero" className="mobile:p-14">
+      <h2 className="font-bold">¿Que es el turismo Bleisure?</h2>
+      <p>
+        Bleisure es un término compuesto por la unión de las palabras en inglés
+        business y leisure, es decir, negocioa y ocio. Bleisure travel significa
+        realizar un viaje de negocios y complementarlo con una estancia privada
+        para hacer turismo en el ddestino o relajarse. TheBleisureHouseValencia
+        es tu espacio en Valencia para disfrutar de tu viaje de ocio y trabajar
+        a la vez. Una pequeña intro del concepto bleisure y de las posibilidades
+        de trabajar/ocio en Valencia.
+      </p>
+    </div>
+    <div id="hero" className="mobile:p-14">
+      <h2 className="font-bold">¿Que es el turismo Bleisure?</h2>
+      <p>
+        Bleisure es un término compuesto por la unión de las palabras en inglés
+        business y leisure, es decir, negocioa y ocio. Bleisure travel significa
+        realizar un viaje de negocios y complementarlo con una estancia privada
+        para hacer turismo en el ddestino o relajarse. TheBleisureHouseValencia
+        es tu espacio en Valencia para disfrutar de tu viaje de ocio y trabajar
+        a la vez. Una pequeña intro del concepto bleisure y de las posibilidades
+        de trabajar/ocio en Valencia.
+      </p>
+    </div>
+    <div id="hero" className="mobile:p-14">
+      <h2 className="font-bold">¿Que es el turismo Bleisure?</h2>
+      <p>
+        Bleisure es un término compuesto por la unión de las palabras en inglés
+        business y leisure, es decir, negocioa y ocio. Bleisure travel significa
+        realizar un viaje de negocios y complementarlo con una estancia privada
+        para hacer turismo en el ddestino o relajarse. TheBleisureHouseValencia
+        es tu espacio en Valencia para disfrutar de tu viaje de ocio y trabajar
+        a la vez. Una pequeña intro del concepto bleisure y de las posibilidades
+        de trabajar/ocio en Valencia.
+      </p>
+    </div>
+  </>
 );
 
 export default Lista;

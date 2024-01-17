@@ -92,7 +92,6 @@ const Heroslider = () => {
                 dotListClass="dots-slider"
                 itemClass="items-slider"
                 customTransition="all .5s ease-in-out"
-                
             >
                 {texts.map(({ img, titulo, parrafo }, key) => (
                     <div key={key}>
